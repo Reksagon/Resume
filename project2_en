@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kytapp</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .img-responsive {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: #a4c639;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .back-button:hover {
+            background-color: #8daa30;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Kytapp</h2>
+        <img src="img/portfolio/kit_1.png" alt="Kytapp" class="img-responsive">
+       <p> Development of a mobile application for a financial company specializing in currency and cryptocurrency exchange. </p> <p> The app enables users to securely and conveniently perform real-time exchange operations, integrates with modern payment systems, and supports multi-factor authentication to ensure a high level of security. </p>
+
+        <a href="javascript:window.history.back();" class="back-button">Back</a>
+    </div>
+</body>
+</html>
